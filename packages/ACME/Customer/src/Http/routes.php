@@ -2,7 +2,7 @@
 use ACME\Customer\Http\Controllers\CustomerController;
 use Illuminate\Support\Facades\Route;
 Route::group([
-        'prefix'        => 'admin/customerr',
+        'prefix'        => 'admin/customer',
         'middleware'    => ['web', 'user']
     ], function () {
 
